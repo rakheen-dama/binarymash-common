@@ -24,7 +24,7 @@ jobs:
           gpg-passphrase: ${{ secrets.GPG_PASSPHRASE }}
 
       - name: Deploy to GitHub Packages
-        run: mvn deploy
+        run: mvn deploy --settings ${{ github.workspace }}/settings.xml
         env:
           GITHUB_TOKEN: ${{ secrets.DEP_TOKEN }}
           GITHUB_USERNAME: rakheen-dama
