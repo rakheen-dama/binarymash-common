@@ -27,3 +27,4 @@ jobs:
         run: mvn deploy
         env:
           GITHUB_TOKEN: ${{ secrets.DEP_TOKEN }}
+          GITHUB_USERNAME: rakheen-dama
