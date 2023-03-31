@@ -3,7 +3,12 @@
           xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0 http://maven.apache.org/xsd/settings-1.0.0.xsd">
     <servers>
         <server>
-            <id>github</id>
+            <id>github-releases</id>
+            <username>rakheen-dama</username>
+            <password>${env.DEP_TOKEN}</password>
+        </server>
+        <server>
+            <id>github-snapshots</id>
             <username>rakheen-dama</username>
             <password>${env.DEP_TOKEN}</password>
         </server>

@@ -73,8 +73,12 @@
 
     <distributionManagement>
         <repository>
-            <id>Github</id>
+            <id>github-releases</id>
             <url>https://maven.pkg.github.com/rakheen-dama/bmash-common</url>
         </repository>
+        <snapshotRepository>
+            <id>github-snapshots</id>
+            <url>https://maven.pkg.github.com/rakheen-dama/bmash-common</url>
+        </snapshotRepository>
     </distributionManagement>
 </project>
