@@ -12,7 +12,7 @@
                     </property>
                 </httpHeaders>
             </configuration>
-            <username>${env.GITHUB_USERNAME}</username>
+            <username>rakheen-dama</username>
             <password>${env.DEP_TOKEN}</password>
         </server>
     </servers>
