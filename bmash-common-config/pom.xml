@@ -5,13 +5,12 @@
     <parent>
         <groupId>io.binarymash</groupId>
         <artifactId>bmash-common</artifactId>
-        <version>1.0.3-SNAPSHOT</version>
+        <version>1.0.3</version>
 <!--        <relativePath/> &lt;!&ndash; lookup parent from repository &ndash;&gt;-->
     </parent>
 
-    <groupId>io.binarymash</groupId>
     <artifactId>bmash-common-config</artifactId>
-    <version>1.0.3-SNAPSHOT</version>
+    <version>1.0.3</version>
     <name>bmash-common-config</name>
     <description>bmash-common-config</description>
     <packaging>jar</packaging>

@@ -8,31 +8,26 @@
     <profiles>
         <profile>
             <id>github</id>
-            <activation>
-                <property>
-                    <name>useGitHubPackages</name>
-                    <value>true</value>
-                </property>
-            </activation>
+            <repositories>
+                <repository>
+                    <id>central</id>
+                    <url>https://repo1.maven.org/maven2</url>
+                </repository>
+                <repository>
+                    <id>github</id>
+                    <url>https://maven.pkg.github.com/rakheen-dama/bmash-common</url>
+                    <snapshots>
+                        <enabled>true</enabled>
+                    </snapshots>
+                </repository>
+            </repositories>
         </profile>
     </profiles>
     <servers>
         <server>
             <id>github</id>
-            <configuration>
-                <httpHeaders>
-                    <property>
-                        <name>Authorization</name>
-                        <value>Bearer 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</value>
-                    </property>
-                </httpHeaders>
-            </configuration>
             <username>rakheen-dama</username>
-<<<<<<< HEAD
-            <password>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</password>
-=======
             <password>${env.DEP_TOKEN}</password>
->>>>>>> 163498674a6b7a9d911fa3546060bc005c851ded
         </server>
     </servers>
 </settings>
