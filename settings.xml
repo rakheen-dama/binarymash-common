@@ -28,7 +28,11 @@
                 </httpHeaders>
             </configuration>
             <username>rakheen-dama</username>
+<<<<<<< HEAD
             <password>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</password>
+=======
+            <password>${env.DEP_TOKEN}</password>
+>>>>>>> 163498674a6b7a9d911fa3546060bc005c851ded
         </server>
     </servers>
 </settings>
