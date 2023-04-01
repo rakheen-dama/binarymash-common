@@ -30,7 +30,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.DEP_TOKEN }}
 
       - name: Deploy to GitHub Packages
-        run: mvn -X deploy -s --settings ${{ github.workspace }}/settings.xml
+        run: mvn -X deploy --settings ${{ github.workspace }}/settings.xml
         env:
           GITHUB_TOKEN: ${{ secrets.DEP_TOKEN }}
-          GITHUB_USERNAME: rakheen-dama
+          GITHUB_USERNAME: ${{ secrets.DEP_USERNAME }}
