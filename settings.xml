@@ -15,7 +15,7 @@
                 </repository>
                 <repository>
                     <id>github</id>
-                    <url>https://maven.pkg.github.com/rakheen-dama/bmash-common</url>
+                    <url>https://maven.pkg.github.com/rakheen-dama/binarymash-common</url>
                     <snapshots>
                         <enabled>true</enabled>
                     </snapshots>

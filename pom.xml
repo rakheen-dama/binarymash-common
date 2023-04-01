@@ -76,7 +76,7 @@
         <repository>
             <id>github</id>
             <name>GitHub Packages</name>
-            <url>https://maven.pkg.github.com/rakheen-dama/bmash-common</url>
+            <url>https://maven.pkg.github.com/rakheen-dama/binarymash-common</url>
             <layout>default</layout>
         </repository>
     </distributionManagement>
