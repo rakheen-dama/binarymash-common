@@ -17,10 +17,10 @@
     </parent>
 
     <properties>
-        <maven.compiler.source>17</maven.compiler.source>
-        <maven.compiler.target>17</maven.compiler.target>
+        <maven.compiler.source>19</maven.compiler.source>
+        <maven.compiler.target>19</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <project.version>1.0.4-SNAPSHOT</project.version>
+        <project.version>1.0.5-SNAPSHOT</project.version>
         <lombok.version>1.18.26</lombok.version>
         <spring-boot.version>3.0.5</spring-boot.version>
     </properties>
@@ -28,6 +28,7 @@
     <modules>
         <module>bmash-common-config</module>
         <module>bmash-common-bom</module>
+        <module>bmash-utils</module>
     </modules>
 
     <dependencyManagement>

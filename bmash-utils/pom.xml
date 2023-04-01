@@ -9,20 +9,29 @@
         <version>1.0.5-SNAPSHOT</version>
     </parent>
 
-    <artifactId>bmash-common-bom</artifactId>
-    <packaging>pom</packaging>
+    <artifactId>bmash-utils</artifactId>
+
+    <properties>
+        <maven.compiler.source>19</maven.compiler.source>
+        <maven.compiler.target>19</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+        </dependency>
+    </dependencies>
 
     <dependencyManagement>
         <dependencies>
             <dependency>
                 <groupId>io.binarymash</groupId>
-                <artifactId>bmash-common-config</artifactId>
+                <artifactId>bmash-common-bom</artifactId>
                 <version>${project.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>io.binarymash</groupId>
-                <artifactId>bmash-utils</artifactId>
-                <version>${project.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
             </dependency>
         </dependencies>
     </dependencyManagement>
