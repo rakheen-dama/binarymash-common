@@ -25,6 +25,10 @@
     </profiles>
     <servers>
         <server>
+            <configuration>
+                <allowSnapshots>true</allowSnapshots>
+                <allowReleases>true</allowReleases>
+            </configuration>
             <id>github</id>
             <username>${env.DEP_USER}</username>
             <password>${env.DEP_TOKEN}</password>
