@@ -31,16 +31,6 @@
         <module>bmash-utils</module>
     </modules>
 
-    <dependencyManagement>
-        <dependencies>
-            <dependency>
-                <groupId>io.binarymash</groupId>
-                <artifactId>bmash-common-config</artifactId>
-                <version>${project.version}</version>
-            </dependency>
-        </dependencies>
-    </dependencyManagement>
-
     <build>
         <plugins>
             <plugin>
