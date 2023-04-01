@@ -4,8 +4,16 @@
     <servers>
         <server>
             <id>github</id>
+            <configuration>
+                <httpHeaders>
+                    <property>
+                        <name>Authorization</name>
+                        <value>Bearer ${env.DEP_TOKEN}</value>
+                    </property>
+                </httpHeaders>
+            </configuration>
             <username>${env.GITHUB_USERNAME}</username>
-            <password>${env.GITHUB_TOKEN}</password>
+            <password>${env.DEP_TOKEN}</password>
         </server>
     </servers>
 </settings>
